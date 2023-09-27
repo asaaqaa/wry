@@ -17,17 +17,17 @@ LOG_GROUP_ID = int(getenv("LOG_GROUP_ID"))
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "VENOM")
 OWNER_USER_NAME = getenv("OWNER_USER_NAME", "R_R_B0")
 OWNER_ID = list(
-  map(int, getenv("OWNER_ID", "").split())) + [5345637082]
+  map(int, getenv("OWNER_ID", "").split())) + [6218149232]
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
 OWNER = getenv("OWNER", None)
 
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/Tompriv/Tom")
-UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/asaaqaa/wry")
+UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/SOURCE_NEON")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/R_N_B1")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Mlze1bot")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/asaaqaliio")
 
 SUPPORT_HEHE = SUPPORT_GROUP.split("me/")[1]
 
@@ -77,7 +77,7 @@ clean = {}
 autoclean = []
 
 
-START_IMG_URL = getenv("START_IMG_URL", "https://t.me/vd_d_dd/20")
+START_IMG_URL = getenv("START_IMG_URL", "https://t.me/asaaqaliio")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
